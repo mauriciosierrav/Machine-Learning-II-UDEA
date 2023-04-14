@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+workshop_solution/.ipynb_checkpoints/
 
 # PyCharm
 .idea/
@@ -15,5 +16,4 @@ main.py
 
 # Others
 .DS_Store
-requirements.txt
 

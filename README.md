@@ -15,20 +15,24 @@
 ####
 6. ❌ Pending
 ####
-7. ❌ Pending
+7. Click [here](workshop_solution/Punto7.ipynb) to go to the solution of point 7
 ####
 8. ❌ Pending
 ####
 9. **What are the underlying mathematical principles behind UMAP? What is it useful for?**
 
-   UMAP (Uniform Manifold Approximation and Projection) is a nonlinear dimensionality reduction technique. The technique is based on underlying mathematical principles including differential geometry, algebraic topology and information theory. 
+    UMAP (Uniform Manifold Approximation and Projection) is a nonlinear dimensionality reduction technique. It is based on mathematical principles such as differential geometry, algebraic topology and information theory. 
 
-   UMAP has several applications, some examples are: finding a low-dimensional geometric representation of high-dimensional data while maintaining the global and local structure of the data; visualization of high-dimensional data; identification of groups or clusters in the data; feature selection and exploration of the underlying structure of the data.
+    UMAP has several applications, some examples are: finding a low-dimensional geometric representation of high-dimensional data while maintaining the global and local structure of the data; visualization of high-dimensional data; identification of groups or clusters in the data; feature selection and exploration of the underlying structure of the data.
+
+    UMAP is closely related to t-SNE as both are nonlinear dimensionality reduction techniques used to visualize high-dimensional data in a low-dimensional space; however UMAP offers some advantages: higher speed, better preservation of global structure and more understandable parameters, which makes UMAP a more effective tool for high-dimensional data visualization.
 ####
 10. **What are the underlying mathematical principles behind LDA? What is it useful for?**
 
-      LDA (Linear Discriminant Analysis) is a dimensionality reduction and classification technique. The technique is based on several underlying mathematical principles, including probability theory and statistics, linear algebra and mathematical optimization.
+    LDA (Linear Discriminant Analysis) is a dimensionality reduction and classification technique. It is based on several underlying mathematical principles, such as probability theory and statistics, linear algebra and mathematical optimization.
    
-      LDA has several applications, some examples are: finding a linear combination of the original variables that best discriminates between two or more classes of data; feature selection; exploration of the underlying structure of the data; reducing dimensionality and improving the efficiency of image processing.
+    LDA has several applications, some examples are: projecting data into a lower dimensional space that maximizes the separation between classes, finding a set of linear discriminants that maximize the relationship between the between-class variance and the within-class variance; feature selection; exploring the underlying structure of the data; dimensionality reduction; and improving the efficiency of image processing.
+
+    LDA is closely related to PCA as both are linear dimensionality reduction techniques used to find the most important features in the data; however LDA offers some advantages: it is a simple and computationally efficient algorithm; it can work well even when the number of features is much larger than the number of training samples; it can handle multicollinearity (correlation between features) in the data.
 ####
 11. ❌ Pending
