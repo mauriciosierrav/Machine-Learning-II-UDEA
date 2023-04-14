@@ -3,21 +3,21 @@
 ####
 2. Click [here](workshop_solution/Punto2.ipynb) to go to the solution of point 2
 ####
-3. The _unsupervised_ Python package was published in **PyPI** and can be installed  using  `pip install dim-reduction-jmsv`. 
+3. The _unsupervised_ Python package was published in **PyPI** and can be installed  using  `pip install dimensionality_reductions_jmsv`. 
 
-   In this [repository](https://) you can see the implementation. 
+   In this [repository](https://github.com/mauriciosierrav/dimensionality-reduction-jmsv.git) you can see the implementation. 
 
    Dependencies were managed with Poetry.
 ####
-4. ❌ Pending
+4. Click [here](workshop_solution/Punto4.ipynb) to go to the solution of point 4
 ####
 5. Click [here](workshop_solution/Punto5.ipynb) to go to the solution of point 5
 ####
-6. ❌ Pending
+6. Click [here](workshop_solution/Punto6.ipynb) to go to the solution of point 6
 ####
 7. Click [here](workshop_solution/Punto7.ipynb) to go to the solution of point 7
 ####
-8. ❌ Pending
+8. Click [here](workshop_solution/Punto8.ipynb) to go to the solution of point 8
 ####
 9. **What are the underlying mathematical principles behind UMAP? What is it useful for?**
 
