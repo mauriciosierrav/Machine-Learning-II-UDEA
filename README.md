@@ -35,4 +35,6 @@
 
     LDA is closely related to PCA as both are linear dimensionality reduction techniques used to find the most important features in the data; however LDA offers some advantages: it is a simple and computationally efficient algorithm; it can work well even when the number of features is much larger than the number of training samples; it can handle multicollinearity (correlation between features) in the data.
 ####
-11. ❌ Pending
+11. https://mauriciosierrav-app-mnist-predictions-app-4x6hu8.streamlit.app/
+    
+    In this [repository](https://github.com/mauriciosierrav/app-MNIST-predictions.git) you can see the implementation. 
