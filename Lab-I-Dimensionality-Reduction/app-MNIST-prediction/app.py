@@ -5,16 +5,16 @@ from PIL import Image
 
 
 #Load pickle files
-with open('./log_regr_PCA.pkl', 'rb') as lr1:
+with open('../log_regr_PCA.pkl', 'rb') as lr1:
     log_regr_PCA = pickle.load(lr1)
 
-with open('./log_regr_SVD.pkl', 'rb') as lr2:
+with open('../log_regr_SVD.pkl', 'rb') as lr2:
     log_regr_SVD = pickle.load(lr2)
 
-with open('./dr_PCA.pkl', 'rb') as dr1:
+with open('../dr_PCA.pkl', 'rb') as dr1:
     dr_PCA = pickle.load(dr1)
 
-with open('./dr_SVD.pkl', 'rb') as dr2:
+with open('../dr_SVD.pkl', 'rb') as dr2:
     dr_SVD = pickle.load(dr2)
 
 
