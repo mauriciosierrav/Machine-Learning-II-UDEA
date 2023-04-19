@@ -4,3 +4,4 @@ matplotlib==3.7.1
 scikit-learn==1.2.2
 seaborn==0.12.2
 dimensionality_reductions_jmsv==0.1.0
+streamlit==1.21.0

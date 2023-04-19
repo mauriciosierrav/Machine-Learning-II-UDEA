@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-workshop_solution/.ipynb_checkpoints/
+Lab-I-Dimensionality-Reduction/workshop_solution/.ipynb_checkpoints/
+Lab-II-Dimensionality-Reduction/workshop_solution/.ipynb_checkpoints/
 
 # PyCharm
 .idea/
