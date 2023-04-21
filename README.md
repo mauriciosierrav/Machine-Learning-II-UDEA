@@ -3,7 +3,7 @@
 ####
 2. Click [here](Lab-II-Clustering) to go to the solution of Lab-II
 
-## app-MINIST en local 🚀
+## app-MNIST-prediction en local 🚀
 
 By following these instructions you will be able to get a copy of the project running on your local machine for development and testing purposes.
 
