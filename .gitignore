@@ -12,8 +12,6 @@ Lab-II-Dimensionality-Reduction/workshop_solution/.ipynb_checkpoints/
 env/
 venv/
 
-# Distribution / packaging
-main.py
 
 # Others
 .DS_Store
