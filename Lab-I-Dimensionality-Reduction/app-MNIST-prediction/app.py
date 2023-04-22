@@ -2,19 +2,22 @@ import streamlit as st
 import pickle
 import numpy as np
 from PIL import Image
+import os
 
+absolutepath = os.path.abspath(__file__)
+fileDirectory = os.path.dirname(absolutepath)
 
 #Load pickle files
-with open('./Lab-I-Dimensionality-Reduction/app-MNIST-prediction/log_regr_PCA.pkl', 'rb') as lr1:
+with open(os.path.join(fileDirectory, 'log_regr_PCA.pkl'), 'rb') as lr1:
     log_regr_PCA = pickle.load(lr1)
 
-with open('./Lab-I-Dimensionality-Reduction/app-MNIST-prediction/log_regr_SVD.pkl', 'rb') as lr2:
+with open(os.path.join(fileDirectory, 'log_regr_SVD.pkl'), 'rb') as lr2:
     log_regr_SVD = pickle.load(lr2)
 
-with open('./Lab-I-Dimensionality-Reduction/app-MNIST-prediction/dr_PCA.pkl', 'rb') as dr1:
+with open(os.path.join(fileDirectory, 'dr_PCA.pkl'), 'rb') as dr1:
     dr_PCA = pickle.load(dr1)
 
-with open('./Lab-I-Dimensionality-Reduction/app-MNIST-prediction/dr_SVD.pkl', 'rb') as dr2:
+with open(os.path.join(fileDirectory, 'dr_SVD.pkl'), 'rb') as dr2:
     dr_SVD = pickle.load(dr2)
 
 

@@ -8,6 +8,9 @@ import pickle
 
 # Load MNIST dataset
 X, y  = fetch_openml(data_id=554, parser='auto', return_X_y=True) # https://www.openml.org/d/554
+# Convert pandas dataframe to numpy array to avoid warning "valid feature names"
+X = X.values
+y = y.values
 
 # Split into training and test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
