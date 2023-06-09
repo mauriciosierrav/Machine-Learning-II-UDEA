@@ -47,6 +47,6 @@
 
    In this [repository](https://github.com/mauriciosierrav/dimensionality-reduction-jmsv.git) you can see the implementation.
 ####
-5. Click [here](workshop_solution/Punto5.ipynb) to go to the solution of point 5
+5. Click [here](workshop_solution/punto5.ipynb) to go to the solution of point 5
 ####
-6. Click [here](workshop_solution/Punto6.ipynb) to go to the solution of point 6
+6. Click [here](workshop_solution/punto6.ipynb) to go to the solution of point 6
